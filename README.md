@@ -93,7 +93,10 @@ public class Siddiq {
     private String currentProject =
         "EspoCRM QA Automation";
 
-    private String currentlyLearning = 
+    private String projectScope =
+        "Login, Accounts & Contacts";
+
+    private String currentlyLearning =
         "Playwright + Advanced Automation + CI/CD";
 
     public String motto() {
@@ -180,15 +183,21 @@ public class Siddiq {
 
 **Repository:** [QA-Final-Project-EspoCRM](https://github.com/mohamedabubakarsiddiq/QA-Final-Project-EspoCRM)
 
-A structured QA project created to demonstrate end-to-end software testing practices using **manual testing, test documentation and Selenium automation**.
+A structured QA project created to demonstrate **manual testing, test documentation, test execution and Selenium automation** using an EspoCRM application.
 
-### 🔍 Modules Covered
+### 🔍 Current Project Scope
 
-* 🔐 Login
-* 👤 Accounts
-* 👥 Contacts
-* 🎯 Leads
-* 💼 Opportunities
+The current automation and testing scope is intentionally focused on **three core modules**:
+
+| #    | Module       | Testing Focus                                                         |
+| ---- | ------------ | --------------------------------------------------------------------- |
+| 🔐 1 | **Login**    | Authentication, validation, positive & negative scenarios             |
+| 👤 2 | **Accounts** | Account creation, validation, search, update and functional scenarios |
+| 👥 3 | **Contacts** | Contact creation, validation, search, update and functional scenarios |
+
+> **Current scope: Login + Accounts + Contacts**
+
+Other EspoCRM modules are currently **outside the active project scope** and are not represented as completed project coverage.
 
 ### 🧪 Testing Activities
 
@@ -202,7 +211,7 @@ A structured QA project created to demonstrate end-to-end software testing pract
 * Regression testing
 * UI automation
 * TestNG assertions
-* Reusable page objects
+* Reusable Page Object classes
 * Reusable automation utilities
 * Maven-based project execution
 * Git/GitHub version control
@@ -238,6 +247,27 @@ EspoCRM-QA-Automation/
 ├── 08-Automation/
 ├── 09-SQL/
 └── 10-Jenkins/
+```
+
+### 📌 Current Module Coverage
+
+```text
+EspoCRM
+│
+├── 🔐 Login
+│   ├── Manual Test Cases
+│   ├── Test Execution
+│   └── Selenium Automation
+│
+├── 👤 Accounts
+│   ├── Manual Test Cases
+│   ├── Test Execution
+│   └── Selenium Automation
+│
+└── 👥 Contacts
+    ├── Manual Test Cases
+    ├── Test Execution
+    └── Selenium Automation
 ```
 
 ---
@@ -381,7 +411,7 @@ EspoCRM-QA-Automation/
 
 # 🎓 QA Training & Professional Development
 
-### QA Engineering Training — Entri Elevate
+## QA Engineering Training — Entri Elevate
 
 Hands-on training covering:
 
@@ -407,7 +437,7 @@ Hands-on training covering:
 
 ### 🧪 Practical Automation
 
-Built and maintained a structured Selenium automation framework for the **EspoCRM QA project**, applying:
+Built a structured Selenium automation framework for the **EspoCRM QA project**, applying:
 
 * Page Object Model
 * Reusable components
@@ -415,15 +445,16 @@ Built and maintained a structured Selenium automation framework for the **EspoCR
 * Maven project structure
 * Git/GitHub version control
 * Functional and regression automation
+* Module-specific test organization
 
 ---
 
 # 📚 Currently Learning
 
 ```text
-🤖 Automation       → Advanced Selenium Framework Design
-🥒 BDD              → Cucumber + Gherkin
-🌐 API Testing      → REST Assured
+🤖 Automation        → Advanced Selenium Framework Design
+🥒 BDD               → Cucumber + Gherkin
+🌐 API Testing       → REST Assured
 🎭 Modern Automation → Playwright
 🔧 CI/CD             → Jenkins Pipelines & Test Integration
 ```
@@ -464,9 +495,9 @@ Built and maintained a structured Selenium automation framework for the **EspoCR
 
 ---
 
-<div align="center">
+# 🤝 Let's Connect
 
-### 🤝 Let's Connect
+<div align="center">
 
 <a href="https://linkedin.com/in/mohamed-abubakar-siddiq/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
